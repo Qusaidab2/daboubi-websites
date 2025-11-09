@@ -2,38 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Daboubi Agency | Contact</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daboubi Agency | Start Your Project</title>
+  <link rel="stylesheet" href="style.css"/>
+  <meta name="description" content="Contact Daboubi Agency. Prices vary by brand scope and vision. Reach us on Telegram, WhatsApp, or Email.">
 </head>
 <body>
+  <!-- Navbar -->
   <header>
     <nav class="navbar">
       <h1 class="logo">Daboubi Agency</h1>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="projects.html">Showroom</a></li>
+        <li><a href="contact.html" class="active">Start Your Project</a></li>
       </ul>
     </nav>
   </header>
 
-  <section class="contact-section">
-    <h2 class="section-title">Let’s Create Something Beautiful</h2>
-    <p>We only take on a few brands per month to ensure top quality. Share your idea below.</p>
-
-    <form class="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" required></textarea>
-      <button type="submit" class="btn">Send Message</button>
-    </form>
-
-    <a href="https://wa.me/your-number" target="_blank" class="btn whatsapp">Chat on WhatsApp</a>
+  <!-- Opening word or saying -->
+  <section class="contact-intro">
+    <h2 style="font-size:clamp(1.6rem,3vw,2.2rem);">Begin.</h2>
+    <p style="color:var(--muted);max-width:720px;margin:8px auto 0;">
+      Every great site starts with a clear first step.
+    </p>
   </section>
 
+  <!-- Disclaimer -->
+  <section class="contact-intro" style="padding-top:0;">
+    <div style="
+      max-width:720px;margin:0 auto;
+      background:linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
+      border:1px solid rgba(255,255,255,.06);
+      border-radius:var(--radius);
+      box-shadow:var(--shadow);
+      padding:16px 18px;">
+      <p style="margin:0;color:var(--muted);">
+        <strong>Disclaimer:</strong> pricing changes depending on the brand, scope, features, and timeline.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact sentence -->
+  <section class="contact-intro" style="padding-top:28px;">
+    <h2 style="margin-bottom:8px;">If you have any question feel free to contact us on</h2>
+    <p style="color:var(--muted);max-width:720px;margin:0 auto;">
+      Choose the channel you prefer below.
+    </p>
+  </section>
+
+  <!-- Three buttons -->
+  <section class="contact-intro" style="padding-top:18px;">
+    <div style="display:flex;gap:12px;flex-wrap:wrap;justify-content:center;">
+      <!-- Telegram -->
+      <a class="btn" href="https://t.me/QusaiDaboubi" target="_blank" rel="noopener" aria-label="Contact on Telegram">
+        Telegram
+      </a>
+
+      <!-- WhatsApp -->
+      <a class="btn whatsapp" href="https://wa.me/962777547537" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">
+        WhatsApp
+      </a>
+
+      <!-- Email -->
+      <a class="btn" href="mailto:dabadibo.tttt@gmail.com" aria-label="Send us an email">
+        Email
+      </a>
+    </div>
+  </section>
+
+  <!-- Optional small note -->
+  <section class="contact-intro" style="padding-top:10px;">
+    <p style="color:var(--muted);max-width:720px;margin:0 auto;font-size:.95rem;">
+      We usually respond within one business day.
+    </p>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Daboubi Agency. All rights reserved.</p>
+    <p>© 2025 Daboubi Agency. Emotion meets strategy.</p>
   </footer>
 </body>
 </html>
